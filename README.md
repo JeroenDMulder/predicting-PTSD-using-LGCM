@@ -17,7 +17,7 @@ require(lavaan)
 
 ## Authors of main manuscript
 
-* **Valentijn Alting van Geusau, MSc** - *PhD candidate* - []
+* **Valentijn Alting van Geusau, MSc**
 * **Dr. Suzy Matthijssen** - *Inhoudelijk Leidinggevende Altrecht Academisch Angstcentrum* - [altrecht](https://www.altrecht.nl/medewerkers/suzy-matthijssen/)
 * **Jeroen Mulder, MSc** - *PhD candidate* - [Utrecht University](https://www.uu.nl/staff/JDMulder)
 
