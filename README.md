@@ -1,4 +1,4 @@
-# Supplementary materials to Alting van Geusau, Matthijssen, and Mulder (under review)
+# Supplementary materials to Alting van Geusau, Mulder, and Matthijssen (under review)
 
 These online supplementary materials provide the R- and *lavaan*-code for preparing and analyzing the data, respectively. 
 
@@ -18,10 +18,8 @@ require(lavaan)
 ## Authors of main manuscript
 
 * **Valentijn Alting van Geusau, MSc**
-* **Dr. Suzy Matthijssen** - *Inhoudelijk Leidinggevende Altrecht Academisch Angstcentrum* - [altrecht](https://www.altrecht.nl/medewerkers/suzy-matthijssen/)
 * **Jeroen Mulder, MSc** - *PhD candidate* - [Utrecht University](https://www.uu.nl/staff/JDMulder)
-
-
+* **Dr. Suzy Matthijssen** - *Inhoudelijk Leidinggevende Altrecht Academisch Angstcentrum* - [altrecht](https://www.altrecht.nl/medewerkers/suzy-matthijssen/)
 
 ## License
 
