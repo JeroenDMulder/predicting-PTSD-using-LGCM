@@ -1,6 +1,6 @@
-# Supplementary materials to Alting van Geusau, Mulder, and Matthijssen (under review)
+# Supplementary materials to Alting van Geusau, Mulder, and Matthijssen (2021)
 
-These online supplementary materials provide the R- and *lavaan*-code for preparing and analyzing the data, respectively. 
+These online supplementary materials provide the R- and *lavaan*-code for preparing and analyzing the data, respectively. The website can be found at [https://jeroendmulder.github.io/predicting-PTSD-using-LGCM](https://jeroendmulder.github.io/predicting-PTSD-using-LGCM). The main manuscript can be found at [https://doi.org/10.3390/jcm10184152](https://doi.org/10.3390/jcm10184152). 
 
 ### Prerequisites
 
@@ -21,6 +21,4 @@ require(lavaan)
 * **Jeroen Mulder, MSc** - *PhD candidate* - [Utrecht University](https://www.uu.nl/staff/JDMulder)
 * **Dr. Suzy Matthijssen** - *Inhoudelijk Leidinggevende Altrecht Academisch Angstcentrum* - [altrecht](https://www.altrecht.nl/medewerkers/suzy-matthijssen/)
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/JeroenDMulder/RI-CLPM/blob/master/LICENSE) file for details

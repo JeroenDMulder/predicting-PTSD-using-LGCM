@@ -1,7 +1,7 @@
 ---
 title: "Supplementary materials"
 description: |
-  "Predicting outcome in an intensive outpatient PTSD treatment program using daily measures" by Alting van Geusau, Mulder, and Matthijssen (under review)
+  "Predicting outcome in an intensive outpatient PTSD treatment program using daily measures" by Alting van Geusau, Mulder, and Matthijssen (2021)
 output:
   distill::distill_article:
     toc: true
@@ -29,7 +29,7 @@ library(jtools)
 ```
 
 ```{r data, echo = F, eval = T, results=F} 
-dat <- read.table(file = "/Users/jeroenmulder/SURFdrive/Research/Applied - LGCM PTSS/data/20201218_Psychology_PTSS_data.dat"
+dat <- read.table(file = "C:\\Users\\5879167\\surfdrive\\Research\\Applied - LGCM PTSS\\data\\20201218_Psychology_PTSS_data.dat"
                   , header = T
                   , col.names = c("Dissociatief", "OCD", "Angst", "Anorexia", "Boulimia", "Eet", "Stemming", "Cluster_A", "Cluster_B", "Cluster_C", "Ongespecificeerd_Prs", "Ander_Prs", "Border", "Autisme", "ADHD", "Dissociatief_Id", "Ongespecificieerd_diss", "Ander_diss", "Somatisch", "Conversie", 
                                   "PCL.1", "PCL.2", "PCL.3", "PCL.4", "PCL.5", "PCL.6", 
@@ -48,7 +48,7 @@ dat.long <- long_panel(dat, prefix = ".", begin = 1, end = 6, label_location = "
 ```
 
 ## Introduction
-In these supplementary materials we provide a detailed rationale for presenting the linear latent growth curve model (L-LGCM) and the piecewise linear latent growth curve model (with turning point at the third measurement occasion, P3-LGCM) in the main manuscript. The goal of the study is to investigate if we can predict a decrease in PTSD symptomatology 4 weeks after completion of an intensive outpatient treatment program (compared to their pre-treatment measurement), from how patients progress through the treatment program itself. PTSD symptomatology was measured using the CAPS-5 and the PCL-5 such that $\Delta C$ represents a decrease on the CAPS-5 scale, and $\Delta{P}$ a decrease on the PCL-5 scale.[^1] We compare five versions of the LGCM, each with different growth factors, to determine which particular model can make the most accurate predictions for $\Delta{C}$ and $\Delta{P}$ for new patients. To this end, $k$-fold cross-validation was used to compare the out-of-sample prediction performance of five candidate LGCMs.
+In these supplementary materials we provide a detailed rationale for presenting the linear latent growth curve model (L-LGCM) and the piecewise linear latent growth curve model (with turning point at the third measurement occasion, P3-LGCM) in the main manuscript [@AltingVanGeusau2021]. The goal of the study is to investigate if we can predict a decrease in PTSD symptomatology 4 weeks after completion of an intensive outpatient treatment program (compared to their pre-treatment measurement), from how patients progress through the treatment program itself. PTSD symptomatology was measured using the CAPS-5 and the PCL-5 such that $\Delta C$ represents a decrease on the CAPS-5 scale, and $\Delta{P}$ a decrease on the PCL-5 scale.[^1] We compare five versions of the LGCM, each with different growth factors, to determine which particular model can make the most accurate predictions for $\Delta{C}$ and $\Delta{P}$ for new patients. To this end, $k$-fold cross-validation was used to compare the out-of-sample prediction performance of five candidate LGCMs.
 
 The five models are introduced below. Afterwards, we set up the cross-validation study and present the results. We end by fitting the optimal model to the entire dataset, the results of which are presented in the main manuscript. All analyses were performed using the *lavaan* package version 0.6-7 [@Rosseel2012] in R version 3.6.1 [@RCoreTeam2019]. Full information maximum likelihood was used to deal with missing data. *lavaan* code for each model and R code for the cross-validation can be found here and on [Github](https://github.com/JeroenDMulder/predicting-PTSD-using-LGCM).
 
